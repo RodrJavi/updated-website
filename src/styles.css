@@ -2,3 +2,21 @@
   list-style-type: none;
   padding: 0;
 }
+
+.main-heading {
+  font-size: 35px;
+}
+
+.hero-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  height: 300px;
+  width: 300px;
+}
+
+.image-parent {
+  border-radius: 10%;
+  overflow: hidden;
+}

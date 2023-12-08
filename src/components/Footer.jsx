@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer>
-      <span>Javier Rodriguez</span>
+    <footer className="bg-danger">
+      <span>This is the footer</span>
     </footer>
   );
 }
