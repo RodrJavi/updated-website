@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-danger fixed-bottom">
+    <footer className="text-center">
       <span>This is the footer</span>
     </footer>
   );

@@ -14,6 +14,7 @@ export default function Projects() {
     <div className="p-4">
       <h1>Projects</h1>
       <ProjectCard {...testCard} />
+      <ProjectCard {...testCard} />
     </div>
   );
 }
