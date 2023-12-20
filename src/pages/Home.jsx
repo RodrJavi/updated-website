@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <section className="d-flex flex-column align-items-center">
       <div className="image-parent">
-        <img src="../public/images/contact.jpg" alt="" className="hero-image" />
+        <img src="/images/contact.jpg" alt="" className="hero-image" />
       </div>
       <div className="d-flex flex-column align-items-center">
         <h2>About Me</h2>
