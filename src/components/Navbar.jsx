@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <header className="d-flex flex-column flex-md-row align-items-center pt-4 bg-danger">
+    <header className="d-flex flex-column flex-md-row align-items-center pt-4 bg-danger px-md-5 justify-content-md-between">
       <h1 className="main-heading">Javier Rodriguez</h1>
       <nav>
         <ul className="no-bullet d-flex fs-4 gap-4 pt-2 link-underline link-underline-opacity-0">
