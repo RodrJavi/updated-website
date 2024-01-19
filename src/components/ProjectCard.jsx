@@ -1,6 +1,6 @@
 const ProjectCard = ({ pic, title, body, source, site, alt }) => {
   return (
-    <div className="card p-2">
+    <div className="card p-2 project-large-screen">
       <img src={pic} alt={alt} className="card-img-top" />
       <div>
         <div className="card-body">
