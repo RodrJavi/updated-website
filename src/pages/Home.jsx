@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <section className="d-flex flex-column align-items-center">
+    <section className="d-flex flex-column align-items-center p-3">
       <div className="image-parent">
         <img src="/images/contact.jpg" alt="" className="hero-image" />
       </div>
