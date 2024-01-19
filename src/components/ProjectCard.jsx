@@ -1,7 +1,7 @@
-const ProjectCard = ({ pic, title, body, source, site }) => {
+const ProjectCard = ({ pic, title, body, source, site, alt }) => {
   return (
     <div className="card p-2">
-      <img src={pic} alt="" className="card-img-top" />
+      <img src={pic} alt={alt} className="card-img-top" />
       <div>
         <div className="card-body">
           <a
