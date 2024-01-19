@@ -13,8 +13,9 @@ export default function Projects() {
   return (
     <div className="p-4">
       <h1>Projects</h1>
-      <ProjectCard {...testCard} />
-      <ProjectCard {...testCard} />
+      {projectList.map((project) => (
+        <ProjectCard key={project.title} {...project} />
+      ))}
     </div>
   );
 }

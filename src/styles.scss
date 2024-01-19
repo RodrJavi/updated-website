@@ -28,12 +28,12 @@
   border-radius: 5px;
 }
 
-.button-hover {
-  background-color: white;
-  color: #dc3545;
+.btn-hover {
+  --bs-btn-hover-bg: white;
+  --bs-btn-hover-color: #dc3545;
 }
 
-.button-hover-inverse {
-  background-color: #dc3545;
-  color: white;
+.btn-hover-inverse {
+  --bs-btn-hover-bg: #dc3545;
+  --bs-btn-hover-color: white;
 }

@@ -1,7 +1,10 @@
+import ContactForm from "../components/contactForm";
+
 export default function Contact() {
   return (
     <section className="d-flex flex-column align-items-center">
-      <h1>This is the contact page</h1>
+      <h2>Want to get in touch? Feel free to reach out!</h2>
+      <ContactForm />
     </section>
   );
 }

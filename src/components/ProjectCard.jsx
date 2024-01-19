@@ -16,13 +16,13 @@ const ProjectCard = ({ pic, title, body, source, site }) => {
           <a
             href={site}
             target="_blank"
-            className="btn btn-danger text-decoration-none text-white mb-2">
+            className="btn btn-danger text-decoration-none mb-2 btn-hover">
             Go to the site!
           </a>
           <a
             href={source}
             target="_blank"
-            className="btn btn-outline-danger text-decoration-none text-danger">
+            className="btn btn-outline-danger text-decoration-none">
             Go to the code!
           </a>
         </div>
